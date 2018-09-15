@@ -1,4 +1,4 @@
-# Artificial Intelligence, Student Project  
+# Database Laboratory, Student Project  
 ### Computer Engineering and Informatics Department, University of Patras
 --------------------------
 Disclaimer
@@ -7,11 +7,15 @@ This was a student's project at the time. It's code integrity it is not guarante
 
 ================================
  
-Executable file is ../tbp.lisp
- 
+The folders  
+* customerInter  
+* Interface  
+* SV_Interface  
+are NetBeans project folder, and can be imported into it.  
+  
+The file "CreateTrigerInsert_CODE.sql", implements all the Database functionality.  
+The ER of the database is in "RelationalSchema.jpg" file.  
+   
 Implementation
 --------------------------
-This project implements the classic fill refill of three cups.  
-![Problem Picture](/Problem.JPG)
-
-Detailed info are given at the beginning of program's execution.
+This project implements 3 simple Java GUIs that communicate with a MySQL database.
